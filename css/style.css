@@ -21,7 +21,7 @@ a {
 }
 
 #bottom-header {
-    height: 70px;
+    height: 90px;
     padding: 5px 20px;
 }
 
@@ -34,6 +34,7 @@ a {
     padding: 4px 6px;
     border-radius: 2px;
     border: 1px solid lightgray;
+    font-size: 25px;
 }
 
 #log-in {
@@ -46,3 +47,51 @@ a {
     color: gray;
 }
 
+#logo-header {
+    width: 60px
+}
+
+/* Main */
+
+#jumbotron {
+    height: 675px;
+    background-position: center;
+    background-image: url(../img/jumbo-bg.png);
+    position: relative;
+}
+
+#jumbotron-img {
+    width: 20%;
+}
+
+#jumbo-content {
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#jumbo-content h1 {
+    font-size: 50px;
+    margin-bottom: 40px
+}
+
+#jumbo-content img {
+    width: 350px;
+    margin-bottom: 40px;
+}
+
+#jumbo-content p {
+    width: 300px;
+    margin-bottom: 50px
+}
+
+#buy-now {
+    background-color: crimson;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 20px;
+}

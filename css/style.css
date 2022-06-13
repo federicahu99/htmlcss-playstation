@@ -16,6 +16,29 @@ main {
 img {
     width: 100%
 }
+
+/* Utilies */
+
+.buy-now {
+    background-color: crimson;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+.more-info {
+    color: white;
+    background-color: dodgerblue;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+
+.text-grey {
+    color: grey;
+}
+
 /* Header */
 
 #fixed {
@@ -58,10 +81,6 @@ img {
     color: white;
     border-radius: 18px;
     padding: 8px;
-}
-
-.fa.magnifying-glass {
-    color: gray;
 }
 
 #logo-header {
@@ -107,12 +126,6 @@ img {
     margin-bottom: 50px
 }
 
-.buy-now {
-    background-color: crimson;
-    color: #fff;
-    padding: 8px 15px;
-    border-radius: 20px;
-}
 
 /* 6 card section (second section)*/
 
@@ -139,12 +152,6 @@ img {
     color: grey;
 }
 
-#more-info {
-    background-color: dodgerblue;
-    padding: 10px;
-    display: inline-block;
-    border-radius: 20px;
-}
 
 .console img{
     width: 100%;
@@ -166,7 +173,7 @@ img {
 
 #ittakestwo-content {
     color: white;
-    padding: 20px;
+    padding: 15px;
 }
 
 #ittakestwo-content h1 {
@@ -186,3 +193,10 @@ img {
     padding-top: 50px;
     background-color: #1f1f1f;
 }
+
+/* PS4 */
+
+#container-play4 {
+    margin: 50px 0 10px 0;
+}
+

@@ -148,3 +148,12 @@ img {
 .console img{
     width: 100%;
 }
+
+/* ittakestwo */
+
+#ittakestwo {
+    width: 675px;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    position: relative;
+}

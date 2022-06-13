@@ -152,7 +152,6 @@ img {
     color: grey;
 }
 
-
 .console img{
     width: 100%;
 }
@@ -200,3 +199,54 @@ img {
     margin: 50px 0 10px 0;
 }
 
+/* Ps Plus*/
+
+#bg-plus {
+    height: 400px;
+    background-color: #7f7f7f;
+    margin: 50px 0;
+}
+
+#plus-logo {
+    width: 75%;
+}
+
+#button-plus {
+    padding: 10px;
+    border-radius: 20px;
+    color: blue;
+    background-color: #cccfd1;
+    margin-top: 20px;
+}
+
+#plus-img {
+    height: 350px;
+}
+
+#img-container {
+    width: 87.5%;
+}
+
+/* PS Now */
+
+#bg-now {
+    background-color: #161c3b;
+    height: 400px;
+    color: white;
+}
+
+#logo-now {
+    width: 75%
+}
+
+#button-now {
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+    background-color: #cccfd1;
+    margin-top: 20px;
+}
+
+#img-container-now img{
+    width: 90%;
+}

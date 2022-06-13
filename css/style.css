@@ -6,13 +6,27 @@ li {
 
 a {
     text-decoration: none;
-    padding: 5px 8px;
     color: black;
 }
 
+main {
+    padding-top: 120px; 
+}
+
+img {
+    width: 100%
+}
 /* Header */
 
+#fixed {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    right: 0;
+}
+
 #upper-header {
+    width: 100%;
     background-color: black;
     padding: 8px 10px;
     height: 40px;
@@ -21,8 +35,10 @@ a {
 }
 
 #bottom-header {
-    height: 90px;
+    width: 100%;
+    height: 80px;
     padding: 5px 20px;
+    background-color: #fff;
 }
 
 .menu-header {
@@ -40,7 +56,8 @@ a {
 #log-in {
     background-color: gray;
     color: white;
-    border-radius: 15px;
+    border-radius: 18px;
+    padding: 8px;
 }
 
 .fa.magnifying-glass {
@@ -53,7 +70,7 @@ a {
 
 /* Main */
 
-#jumbotron {
+.jumbotron {
     height: 675px;
     background-position: center;
     background-image: url(../img/jumbo-bg.png);
@@ -94,4 +111,40 @@ a {
     color: #fff;
     padding: 8px 15px;
     border-radius: 20px;
+}
+
+/* 6 card section (second section)*/
+
+.column img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.column {
+    padding: 10px; 
+}
+
+/* Third section */
+
+.playstation > a {
+    color: blue;
+}
+
+.playstation > h1 {
+    margin: 25px;
+}
+
+.playstation > h4 {
+    color: grey;
+}
+
+#more-info {
+    background-color: dodgerblue;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.console img{
+    width: 100%;
 }

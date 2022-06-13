@@ -72,8 +72,8 @@ img {
 
 .jumbotron {
     height: 675px;
-    background-position: center;
     background-image: url(../img/jumbo-bg.png);
+    background-position: center;
     position: relative;
 }
 
@@ -89,6 +89,7 @@ img {
     left: 0;
     bottom: 0;
     width: 100%;
+    padding: 30px;
 }
 
 #jumbo-content h1 {
@@ -106,7 +107,7 @@ img {
     margin-bottom: 50px
 }
 
-#buy-now {
+.buy-now {
     background-color: crimson;
     color: #fff;
     padding: 8px 15px;
@@ -152,8 +153,36 @@ img {
 /* ittakestwo */
 
 #ittakestwo {
-    width: 675px;
+    height: 675px;
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-position: center;
     position: relative;
+}
+
+#ittakestwo img {
+    width: 37%;
+    margin: 50px 0;
+}
+
+#ittakestwo-content {
+    color: white;
+    padding: 20px;
+}
+
+#ittakestwo-content h1 {
+    margin: 35px 0;
+    font-size: 45px;
+}
+
+#ittakestwo-content p {
+    margin: 35px 0;
+    font-size: 18px;
+}
+
+/* New */
+
+#bg-grey {
+    color: #fff;
+    padding-top: 50px;
+    background-color: #1f1f1f;
 }

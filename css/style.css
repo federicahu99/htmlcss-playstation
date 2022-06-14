@@ -17,23 +17,12 @@ img {
     width: 100%
 }
 
-/* Utilies */
-
-.buy-now {
-    background-color: crimson;
-    color: #fff;
-    padding: 8px 15px;
-    border-radius: 20px;
-}
-
-.more-info {
+footer {
+    background-color: #00439c;
     color: white;
-    background-color: dodgerblue;
-    padding: 10px;
-    display: inline-block;
-    border-radius: 20px;
 }
 
+/* Utilies */
 
 .text-grey {
     color: grey;
@@ -54,7 +43,11 @@ img {
     padding: 8px 10px;
     height: 40px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: right;
+}
+
+#upper-header img {
+    width: 20%;
 }
 
 header i {
@@ -110,8 +103,7 @@ header i {
     position: absolute;
     left: 0;
     bottom: 0;
-    width: 100%;
-    margin-left: 20px;
+    padding-left: 20px;
 }
 
 #jumbo-content h1 {
@@ -138,7 +130,7 @@ header i {
 }
 
 .column {
-    padding: 10px; 
+    padding: 7px; 
 }
 
 /* Third section */
@@ -205,13 +197,14 @@ header i {
 /* Ps Plus*/
 
 #bg-plus {
-    height: 400px;
+    height: 380px;
     background-color: #7f7f7f;
     margin: 50px 0;
+    padding-left: 20px;
 }
 
 #plus-logo {
-    width: 75%;
+    width: 60%;
 }
 
 #button-plus {
@@ -223,8 +216,8 @@ header i {
 }
 
 #plus-img img {
-    width: 450px;
-    height: 400px;
+    width: 390px;
+    height: 380px;
     margin: 0;
 }
 
@@ -233,7 +226,7 @@ header i {
 }
 
 #bg-plus p {
-    margin: 20px 0;
+    margin: 40px 0;
 }
 
 /* PS Now */
@@ -256,24 +249,42 @@ header i {
     margin-top: 20px;
 }
 
+#bg-now p {
+    margin: 40px 0;
+}
+
+#img-container-now {
+    width: 380px;
+}
+
 #img-container-now img{
-    width: 100%;
     height: 400px;
+    width: 380px;
     margin: 0;
 }
 
-
 /* Footer */
 
-footer {
-    background-color: #00439c;
-    color: white;
-}
 
 #logo-footer {
-    width: 40%;
+    width: 20%;
+    margin-top: 40px;
 }
 
-footer li {
-    color:white
+footer a {
+    color:white;
+}
+
+footer ul {
+    margin: 25px 0;
+    line-height: 200%;
+}
+
+#sie-logo {
+    width: 250px;
+    margin-top: 50px;
+}
+
+#margin-top {
+    margin-top: 25px;
 }

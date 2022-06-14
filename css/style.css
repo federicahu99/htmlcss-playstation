@@ -6,7 +6,7 @@ li {
 
 a {
     text-decoration: none;
-    color: black;
+    color: grey;
 }
 
 main {
@@ -84,6 +84,7 @@ header i {
     width: 60px
 }
 
+
 /* Main */
 
 .jumbotron {
@@ -130,7 +131,7 @@ header i {
 }
 
 .column {
-    padding: 7px; 
+    padding: 25px 5px; 
 }
 
 /* Third section */
@@ -287,4 +288,31 @@ footer ul {
 
 #margin-top {
     margin-top: 25px;
+}
+
+/* Effects */
+
+#bottom-header li:hover a {
+    color: black;
+}
+
+#second-section > .column:hover img {
+    transform: scale(1.2);
+}
+
+.btn:hover {
+    border: white;
+}
+
+.ms-calc > img:hover {
+    opacity: calc(0);
+}
+
+
+/* media query */
+
+@media screen and (min-width: 768px) {
+    .md-calc {
+    width: calc( 100% / 5);
+    }
 }

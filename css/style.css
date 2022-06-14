@@ -10,7 +10,7 @@ a {
 }
 
 main {
-    padding-top: 120px; 
+    padding-top: 100px; 
 }
 
 img {
@@ -63,7 +63,7 @@ header i {
 
 #bottom-header {
     width: 100%;
-    height: 80px;
+    height: 60px;
     padding: auto 20px;
     background-color: #fff;
 }
@@ -75,7 +75,6 @@ header i {
 .fa-bars {
     color: gray;
     padding: 4px 6px;
-    margin-right: 25px;
     border-radius: 2px;
     border: 1px solid lightgray;
     font-size: 25px;
@@ -223,12 +222,18 @@ header i {
     margin-top: 20px;
 }
 
-#plus-img {
-    height: 350px;
+#plus-img img {
+    width: 450px;
+    height: 400px;
+    margin: 0;
 }
 
 #img-container {
     width: 87.5%;
+}
+
+#bg-plus p {
+    margin: 20px 0;
 }
 
 /* PS Now */
@@ -240,7 +245,7 @@ header i {
 }
 
 #logo-now {
-    width: 75%
+    width: 65%
 }
 
 #button-now {
@@ -252,8 +257,11 @@ header i {
 }
 
 #img-container-now img{
-    width: 90%;
+    width: 100%;
+    height: 400px;
+    margin: 0;
 }
+
 
 /* Footer */
 

@@ -56,7 +56,7 @@ header i {
 
 #bottom-header {
     width: 100%;
-    height: 60px;
+    height: 70px;
     padding: auto 20px;
     background-color: #fff;
 }
@@ -90,7 +90,7 @@ header i {
 .jumbotron {
     height: 675px;
     background-image: url(../img/jumbo-bg.png);
-    background-position: center;
+    background-position: top;
     position: relative;
 }
 
@@ -104,7 +104,7 @@ header i {
     position: absolute;
     left: 0;
     bottom: 0;
-    padding-left: 20px;
+    padding-left: 30px;
 }
 
 #jumbo-content h1 {
@@ -128,13 +128,15 @@ header i {
 .column img{
     width: 100%;
     border-radius: 20px;
+    transition-duration: 0.3s;
+    transition: border 0s;
 }
 
 .column {
     padding: 25px 5px; 
 }
 
-/* Third section */
+/* Third section (PS5) */
 
 .playstation > a {
     color: blue;
@@ -150,6 +152,10 @@ header i {
 
 .console img{
     width: 100%;
+}
+
+.ps5-opacity {
+    filter: opacity(0.6);
 }
 
 /* ittakestwo */
@@ -228,6 +234,7 @@ header i {
 
 #bg-plus p {
     margin: 40px 0;
+    color: white;
 }
 
 /* PS Now */
@@ -260,7 +267,7 @@ header i {
 
 #img-container-now img{
     height: 400px;
-    width: 380px;
+    width: 390px;
     margin: 0;
 }
 
@@ -290,29 +297,37 @@ footer ul {
     margin-top: 25px;
 }
 
-/* Effects */
+/* Effects on hover */
 
 #bottom-header li:hover a {
     color: black;
 }
 
-#second-section > .column:hover img {
-    transform: scale(1.2);
+#second-section .column:hover img {
+    transform: translatey(-7px);
 }
 
 .btn:hover {
-    border: white;
+    
+
 }
 
-.ms-calc > img:hover {
-    opacity: calc(0);
+.md-calc > .img-store-ps5:hover > img {
+    filter: opacity(0.95);
+    border-bottom: 2px solid dodgerblue;
+}
+
+/* Effects on active */
+
+#second-section .column:active img {
+    border: 2px solid dodgerblue;
 }
 
 
-/* media query */
+/* Media query */
 
 @media screen and (min-width: 768px) {
     .md-calc {
-    width: calc( 100% / 5);
+        width: calc( 100% / 5 );
     }
 }

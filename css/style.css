@@ -92,6 +92,8 @@ header i {
     background-image: url(../img/jumbo-bg.png);
     background-position: top;
     position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #jumbotron-img {
@@ -163,7 +165,9 @@ header i {
 #ittakestwo {
     height: 755px;
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-    background-position: center;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
 }
 
@@ -307,9 +311,20 @@ footer ul {
     transform: translatey(-7px);
 }
 
-.btn:hover {
-    
+.btn-primary:hover {
+    box-shadow: -1px 0 dodgerblue, 0 1px dodgerblue, 1px 0 dodgerblue, 0 -1px dodgerblue;
+    border: 1px solid white;
+}
 
+.btn-secondary:hover {
+    box-shadow: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
+    border: 1px solid white;
+    color: white;
+}
+
+.btn-danger:hover {
+    box-shadow: -1px 0 #dc3545, 0 1px #dc3545, 1px 0 #dc3545, 0 -1px #dc3545;
+    border: 1px solid white;
 }
 
 .md-calc > .img-store-ps5:hover > img {

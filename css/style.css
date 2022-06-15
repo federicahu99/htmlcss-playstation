@@ -130,8 +130,7 @@ header i {
 .column img{
     width: 100%;
     border-radius: 20px;
-    transition-duration: 0.3s;
-    transition: border 0s;
+    transition: 0.3s;
 }
 
 .column {
@@ -227,7 +226,7 @@ header i {
 }
 
 #plus-img img {
-    width: 390px;
+    width: 120%;
     height: 380px;
     margin: 0;
 }
@@ -250,7 +249,7 @@ header i {
 }
 
 #logo-now {
-    width: 65%
+    width: 60%
 }
 
 #button-now {
@@ -271,7 +270,7 @@ header i {
 
 #img-container-now img{
     height: 400px;
-    width: 390px;
+    width: 111%;
     margin: 0;
 }
 
@@ -319,7 +318,6 @@ footer ul {
 .btn-secondary:hover {
     box-shadow: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
     border: 1px solid white;
-    color: white;
 }
 
 .btn-danger:hover {
@@ -337,7 +335,6 @@ footer ul {
 #second-section .column:active img {
     border: 2px solid dodgerblue;
 }
-
 
 /* Media query */
 
